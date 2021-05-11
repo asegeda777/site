@@ -31,9 +31,11 @@
               "src/assets"
             ],
             "styles": [
-              "src/assets/styles/styles.scss"
+              "./src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "./src/index.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -94,9 +96,11 @@
               "src/assets"
             ],
             "styles": [
-              "src/assets/styles/styles.scss"
+              "./src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "./src/index.js"
+            ]
           }
         },
         "lint": {
